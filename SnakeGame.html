@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body{
+            display: flex;/*https://www.geeksforgeeks.org/css-flex-direction-property/*/
+            flex-direction: column; /*it will arrange display items one top of another like
+            the h1 Snake is top of the canvas*/
+            justify-content: center;
+            align-items: center;
+        }
+        canvas{
+            box-shadow: black 10px 10px 50px;/*Giving a 3d flavour by making shadow box*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Snake</h1>
+    <canvas id="game" width="400" height="400"></canvas>
+    <script src="SnakeGame.js"></script>
+</body>
+</html>
+
